@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+}
+
+h1{
+  margin: 0;
+}
+.greetings{
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-color: blanchedalmond;
+background: url(../images/beachshowcase.jpeg) center no-repeat;
+background-position: right bottom;
+}
