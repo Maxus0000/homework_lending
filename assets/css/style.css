@@ -2,6 +2,7 @@ body{
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+h1,
 p{
   margin: 0;
 }
@@ -31,15 +32,31 @@ margin: 0;
   color: #926239;
   text-decoration: none;
   padding: 10px 15px;
+  margin-top: 15px;
+}
+.btn:hover{
+  color:aliceblue;
+  background-color:#926239;
 }
 
 .main_text{
   /* height: 25vh; */
   box-sizing:border-box;
   font-size: 17px;
-  color:white;
-  background-color:#926239;
+
   text-align: center;
   
   padding: 1em;
+}
+.top{
+  color:white;
+  background-color:#926239;
+}
+.lower{
+  color:#926239;
+  background-color:rgb(239, 233, 224);
+}
+.text_section{
+  display: inline-block;
+width: 33.3%;
 }
